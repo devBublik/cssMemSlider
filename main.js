@@ -13,20 +13,20 @@ function currentSlide(n) {
 
 /* Основная функция слайдера */
 function showSlides(n) {
-    if (n > slides.length) {
+    if (n > slides.length-1) {
       slideIndex = 0;
     }
-    if (n < 1) {
+    if (n < 0) {
         slideIndex = slides.length-1;
     }
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
     for (i = 0; i < dots.length; i++) {
-        dots[i].classList.add('active');
+        dots[i].classList.remove('active');
     }
-    slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].classList.add('active');
+    slides[slideIndex].style.display = "block";
+    dots[slideIndex].classList.add('active');
 }
 
 dots.forEach(function (dot, i){
