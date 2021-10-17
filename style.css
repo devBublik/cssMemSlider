@@ -10,7 +10,7 @@ body{
 	background-color: #aaa;
 	padding-top: 1%;
 }
-/* Картинка мастабируется по отношению к родительскому элементу */
+
 .slider__img {
     object-fit: cover;
     width: 70%;
@@ -25,14 +25,12 @@ body{
     position: absolute;
     color: #fff;
     font-size: 35px;
-    /* Выравнивание текста по горизонтали и по вертикали*/
     left: calc((100vw - 70%) / 2);
     bottom: 15%;
-    /* transform: translate(-50%, -50%); */
-    /* Тень*/
+
     text-shadow: 1px 1px 1px #000, 0 0 1em #000;
 }
-/* Кружочки */
+
 
 .slider__dot{
 	cursor: pointer;
@@ -62,7 +60,7 @@ body{
 .slider__dot:hover {
     background-color: #000;
 }
-/* Анимация слайдов */
+
 .slider__item {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;

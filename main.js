@@ -1,4 +1,4 @@
-/* Индекс слайда по умолчанию */
+
 let slideIndex = 0;
 let dots = document.querySelectorAll(".slider__dot");
 let slides = document.querySelectorAll(".slider__item");
@@ -6,12 +6,11 @@ let i;
 
 showSlides(slideIndex);
 
-/* Устанавливает текущий слайд */
+
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
 
-/* Основная функция слайдера */
 function showSlides(n) {
     if (n > slides.length-1) {
       slideIndex = 0;
