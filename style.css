@@ -26,7 +26,7 @@ body{
     color: #fff;
     font-size: 35px;
     left: calc((100vw - 70%) / 2);
-    bottom: 15%;
+    bottom: 5%;
 
     text-shadow: 1px 1px 1px #000, 0 0 1em #000;
 }
@@ -50,7 +50,7 @@ body{
     text-align: center;
 	position: absolute;
 	right: calc((100vw - 70%) / 2);
-    bottom: 15%;
+    bottom: 5%;
 	height: 60px;
 }
 
