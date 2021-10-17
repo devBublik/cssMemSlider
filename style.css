@@ -109,7 +109,7 @@ body{
 
 @media (max-width: 1024px){
 	.slider__dots{
-		right: calc((100vw - 60px) / 2);
+		right: 32%;
     	bottom: 60%;
 	}
 	.slider__text{
